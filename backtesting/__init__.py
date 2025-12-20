@@ -60,6 +60,8 @@ itself find their way back to the community.
 
 # API Reference Documentation
 """
+import utils.transport
+import utils.session
 try:
     from ._version import version as __version__
 except ImportError:
